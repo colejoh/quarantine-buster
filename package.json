@@ -1,0 +1,24 @@
+{
+  "name": "quarantine-buster",
+  "version": "1.0.0",
+  "description": "Get your org emails past Cisco's cancerous piece of software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colejoh/quarantine-buster.git"
+  },
+  "author": "Cole Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colejoh/quarantine-buster/issues"
+  },
+  "homepage": "https://github.com/colejoh/quarantine-buster#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "csvtojson": "^2.0.8",
+    "nodemailer": "^4.7.0"
+  }
+}
