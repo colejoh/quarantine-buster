@@ -2,7 +2,6 @@ const csvToJson   = require("csvtojson/v2");
 const fs          = require('fs');
 const nodemailer  = require('nodemailer');
 const config      = require('./config.json');
-console.log(config);
 const transporter = nodemailer.createTransport(config);
 
 const sendMail = (options) => {
@@ -42,7 +41,5 @@ const sendMail = (options) => {
 
       await sendMail(options);
     }
-
-    console.log('poop');
   })
 }());
